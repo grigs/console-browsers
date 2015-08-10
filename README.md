@@ -37,7 +37,8 @@ The site uses Jekyll for templating, so you'll need to set this up.
 * Clone the GitHub repository
 * Open up Terminal and type `gem install jekyll`
 * In Terminal, navigate to where you cloned the site, eg: `cd Sites/console-browser`
-* Once you're in the right folder, type `jekyll serve --watch` in Terminal. This will run Jekyll and watch for changes you make. 
+* Once you're in the right folder, type `bundle update all` to make sure you have the right versions of the dependencies.
+* Type `jekyll serve --watch` in Terminal. This will run Jekyll and watch for changes you make. 
 * To view the site locally, type `http://0.0.0.0:4000/` in your browser's address bar.
 
 A `_site` folder will be generated where all the static files are output. This is ignored in the .gitignore file because GitHub Pages builds the files itself.
